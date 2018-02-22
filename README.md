@@ -1,5 +1,7 @@
 ## GLRM
 
+### The original repo is out of maintained from the original author. This repo has several updates, including README, glrm.py, setup.py etc. It still has some instability issue.
+
 GLRM is a python package for exploratory data analysis using Generalized Low
 Rank Models (GLRMs). 
 
@@ -63,8 +65,8 @@ For example, if a 4x4 block of data is missing from the center of A,
 this corresponds to rows 24-27 and columns 49-50 of submatrix 1,
 and rows 24-27 and columns 1-2 of submatrix 2. (Python is 0-indexed.)
 
-    missing1     = [(23, 48), (23, 49), (24, 48), (24, 49), \
-                    (25, 48), (25, 49), (26, 48), (26, 49)]
+    missing1     = [(48, 23), (49, 23), (48, 24), (49, 24), \
+                    (48, 22), (49, 21), (48, 21), (49, 22)]
     missing2     = [(23, 0), (23, 1), (24, 0), (24, 1), \
                     (25, 0), (25, 1), (26, 0), (26, 1)]
     missing_list = [missing1, missing2]
