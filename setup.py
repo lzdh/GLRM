@@ -10,5 +10,7 @@ setup(
         url="http://github.com/cehorn/GLRM/",
         license="MIT",
         install_requires=[  "numpy >= 1.8",
-                            "scipy >= 0.13"]
+                            "scipy >= 0.13"
+			    "cvxpy >= 0.4.11"
+			    "matplotlib >= 2.1.2"]
 )
